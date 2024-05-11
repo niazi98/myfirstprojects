@@ -1,0 +1,102 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Set default font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #46413f; /* Dark background color */
+    color: #f5ecec; /* Text color */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto 0; /* Added margin-top of 50px */
+    padding: 10px;
+    background-color: #694e4e; /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center; /* Center align text */
+  }
+  
+  header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last button */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Link color */
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background on hover */
+  }
+  
+  h1, h2 {
+    color: #fff; /* Heading color */
+  }
+  
+  p {
+    color: #ccc; /* Paragraph color */
+  }
+  
+  .img {
+    border-radius: 100%;
+    size: 450px;
+  }
+  
+  /* About Section */
+  #about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  hr {
+    width: 10cm;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-right: 20px;
+    overflow: hidden; /* Add this property to clear the float */
+  }
+  
+  .photo img {
+    width: 200px; /* Adjust size of photo as needed */
+    border-radius: 8px;
+  }
+  #skills ul {
+    list-style: none; /* Remove bullet points */
+    padding-left: 0; /* Remove default padding */
+}
+
+#skills p {
+    text-align: left; /* Align paragraph to the left */
+}

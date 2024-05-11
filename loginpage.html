@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        .Login {
+            width: 300px;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 50px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+        }
+        .Login h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="checkbox"] {
+            width: calc(100% - 12px);
+            padding: 6px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        input[type="checkbox"] {
+            width: auto;
+        }
+        button.Login-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        button.Login-button:hover {
+            background-color: #0056b3;
+        }
+        hr {
+            margin-top: 20px;
+            border: none;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="Login">
+            <h1>Login Page</h1>
+            <form>
+                
+                    
+                
+                   
+                Username:<br><input id="name" type="text" placeholder="Enter your username" required><br><br>
+                Email:<br><input id="email" type="email" placeholder="youremail@gmail.com" required><br><br>
+                Password:<br><input id="password" type="password" placeholder="Enter your password" required><br><br>
+                Confirm Password:<br><input id="confirm-password" type="password" placeholder="Confirm password" required><br><br>
+                <label for="terms"><input id="terms" type="checkbox">I agree with terms and conditions</label><br><br>
+                <button class="Login-button">Login</button>
+            </form>
+            <hr>
+        </div>
+    </center>
+</body>
+</html>
